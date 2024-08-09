@@ -1,0 +1,25 @@
+.main {
+  &__about {
+    margin-bottom: 171px;
+
+    @media (max-width: 1010px) {
+      margin-bottom: 60px;
+    }
+  }
+
+  &__team {
+    margin-bottom: 169px;
+
+    @media (max-width: 1010px) {
+      margin-bottom: 60px;
+    }
+  }
+
+  &__reviews {
+    margin-bottom: 110px;
+
+    @media (max-width: 1010px) {
+      margin-bottom: 40px;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.main {
+  &__info {
+    margin-bottom: 112px;
+
+    @media (max-width: 1010px) {
+      margin-bottom: 53px;
+    }
+  }
+
+  &__reviews {
+    margin-bottom: 140px;
+
+    @media (max-width: 1439px) {
+      margin-bottom: 100px;
+    }
+
+    @media (max-width: 1010px) {
+      margin-bottom: 40px;
+    }
+  }
+}

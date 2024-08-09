@@ -1,0 +1,25 @@
+.map {
+  &__title {
+    @include title();
+    margin-bottom: 50px;
+
+    @media (max-width: 1010px) {
+      margin-bottom: 20px;
+    }
+  }
+
+  & iframe {
+    @media (max-width: 1010px) {
+      height: 340px !important;
+    }
+  }
+
+  &__image {
+    width: 100%;
+    aspect-ratio: 1277 / 500;
+
+    & > img {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,168 @@
+.works {
+  &__title {
+    @include title();
+    margin-bottom: 60px;
+
+    @media (max-width: 1010px) {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 1010px) {
+      flex-direction: column;
+    }
+  }
+
+  &__item {
+    max-width: 630px;
+    width: 50%;
+    margin-right: 15px;
+
+    @media (max-width: 1010px) {
+      width: 100%;
+
+      &:first-of-type {
+        margin-bottom: 15px;
+      }
+    }
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+
+    &-body {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+
+    &-title {
+      max-width: 222px;
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 156%;
+      letter-spacing: 2%;
+      color: $main-color;
+      margin-left: 15px;
+
+      @media (max-width: 1439px) {
+        font-size: 16px;
+      }
+    }
+
+    &-attr {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 110%;
+      letter-spacing: 2%;
+      margin-right: 15px;
+      width: 224px;
+
+      @media (max-width: 1439px) {
+        font-size: 13px;
+      }
+
+      & > div {
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+      }
+
+      & > div:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    &-addres::before {
+      content: "";
+      display: block;
+      width: 26px;
+      height: 26px;
+      background: url("../../images/works/map.svg") no-repeat center;
+      background-size: cover;
+      margin-right: 30px;
+
+      @media (max-width: 1439px) {
+        width: 20px;
+        height: 23px;
+      }
+    }
+
+    &-time::before {
+      content: "";
+      display: block;
+      width: 26px;
+      height: 28px;
+      background: url("../../images/works/date.svg") no-repeat center;
+      background-size: cover;
+      margin-right: 30px;
+
+      @media (max-width: 1439px) {
+        width: 21px;
+        height: 21px;
+      }
+    }
+
+    &-value::before {
+      content: "";
+      display: block;
+      width: 26px;
+      height: 26px;
+      background: url("../../images/works/money.svg") no-repeat center;
+      background-size: cover;
+      margin-right: 30px;
+
+      @media (max-width: 1439px) {
+        width: 21px;
+        height: 21px;
+      }
+    }
+  }
+
+  &__image-wrapper {
+    margin-bottom: 15px;
+    width: 100% !important;
+
+    & img {
+      width: 100%
+    }
+
+    @media (max-width: 1439px) {
+      width: 478.86px;
+    }
+  }
+
+  &__image-list {
+    width: 100%;
+
+    & > li {
+      width: 100% !important;
+    }
+  }
+
+  &__image-next {
+    right: 31px;
+
+    &::after {
+      content: "";
+      width: 20px;
+      height: 32px;
+      background: url("../../images/works/arrow-next.svg") no-repeat center;
+    }
+  }
+
+  &__image-prev {
+    left: 31px;
+
+    &::after {
+      content: "";
+      width: 20px;
+      height: 32px;
+      background: url("../../images/works/arrow-prev.svg") no-repeat center;
+    }
+  }
+}

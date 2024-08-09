@@ -1,0 +1,61 @@
+.main {
+  &__design {
+    margin-bottom: 171px;
+
+    @media (max-width: 1439px) {
+      margin-bottom: 111px;
+    }
+
+    @media (max-width: 1010px) {
+      margin-bottom: 53px;
+    }
+  }
+
+  &__stages {
+    margin-bottom: 171px;
+
+    @media (max-width: 1439px) {
+      margin-bottom: 111px;
+    }
+
+    @media (max-width: 1010px) {
+      margin-bottom: 53px;
+    }
+  }
+
+  &__team {
+    margin-bottom: 171px;
+
+    @media (max-width: 1439px) {
+      margin-bottom: 111px;
+    }
+
+    @media (max-width: 1010px) {
+      margin-bottom: 53px;
+    }
+  }
+
+  &__works {
+    margin-bottom: 171px;
+
+    @media (max-width: 1439px) {
+      margin-bottom: 111px;
+    }
+
+    @media (max-width: 1010px) {
+      margin-bottom: 53px;
+    }
+  }
+
+  &__blog {
+    margin-bottom: 140px;
+
+    @media (max-width: 1439px) {
+      margin-bottom: 100px;
+    }
+
+    @media (max-width: 1010px) {
+      margin-bottom: 40px;
+    }
+  }
+}

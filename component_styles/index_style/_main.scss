@@ -1,0 +1,81 @@
+.main {
+  &__slider {
+    margin-bottom: 120px;
+
+    @media (max-width: 1010px) {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__info {
+    margin-bottom: 169px;
+
+    @media (max-width: 1010px) {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__rates {
+    margin-bottom: 169px;
+
+    @media (max-width: 1010px) {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__works {
+    margin-bottom: 164px;
+
+    @media (max-width: 1010px) {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__map {
+    margin-bottom: 169px;
+
+    @media (max-width: 1010px) {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__text {
+    margin-bottom: 169px;
+
+    @media (max-width: 1010px) {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__team {
+    margin-bottom: 169px;
+
+    @media (max-width: 1010px) {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__reviews {
+    margin-bottom: 169px;
+
+    @media (max-width: 1010px) {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__logos {
+    margin-bottom: 169px;
+
+    @media (max-width: 1010px) {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__question {
+    margin-bottom: 78px;
+
+    @media (max-width: 1010px) {
+      margin-bottom: 40px;
+    }
+  }
+}

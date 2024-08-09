@@ -1,0 +1,17 @@
+.logos {
+  & > .container {
+    padding: 0;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__item {
+    & > img {
+      width: 100%;
+    }
+  }
+}

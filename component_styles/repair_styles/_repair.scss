@@ -1,0 +1,133 @@
+.repair {
+  &__title {
+    @include title();
+    margin-bottom: 60px;
+
+    @media (max-width: 1439px) {
+      margin-bottom: 40px;
+    }
+
+    @media (max-width: 1010px) {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__inner {
+    @media (max-width: 1010px) {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 110px;
+    padding: 0 40px;
+
+    @media (max-width: 1010px) {
+      flex-direction: column;
+      padding: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  &__item:first-of-type {
+    margin-right: 31px;
+
+    @media (max-width: 1010px) {
+      margin-right: 0;
+      margin-bottom: 15px;
+    }
+  }
+
+  &__text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 2%;
+    color: $main-color;
+    max-width: 541px;
+
+    @media (max-width: 1439px) {
+      max-width: 443px;
+      font-size: 16px;
+    }
+
+    @media (max-width: 1010px) {
+      font-size: 14px;
+    }
+
+    &:first-of-type {
+      margin-bottom: 25px;
+
+      @media (max-width: 1010px) {
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  &__exellence-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    @media (max-width: 1010px) {
+      flex-wrap: wrap;
+      margin-bottom: 30px;
+    }
+  }
+
+  &__exellence-item {
+    max-width: 256px;
+    display: flex;
+    align-items: flex-start;
+
+    @media (max-width: 1439px) {
+      max-width: 217px;
+    }
+
+    @media (max-width: 1010px) {
+      max-width: 179px;
+    }
+  }
+
+  &__exellence-icon {
+    margin-right: 15px;
+  }
+
+  &__exellence-title {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 156%;
+    letter-spacing: 2%;
+    text-transform: uppercase;
+    color: $main-color;
+    margin-bottom: 10px;
+
+    @media (max-width: 1439px) {
+      font-size: 18px;
+    }
+
+    @media (max-width: 1010px) {
+      font-size: 14px;
+    }
+  }
+
+  &__exellence-text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 2%;
+    color: $main-color;
+
+    @media (max-width: 1439px) {
+      font-size: 17px;
+    }
+
+    @media (max-width: 1010px) {
+      font-size: 12px;
+    }
+  }
+}
